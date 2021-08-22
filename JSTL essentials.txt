@@ -1,0 +1,6 @@
+tags
+    
+    <c:out value="Hello World FROM JSTL core tags"/>
+	  <c:out value="${label}"/>       //JSTL expression tag
+		${label}                        //normal JSTL tag        (line 4 and 5 both are same)
+    <c:import url="https://www.youtube.com"></c:import>
