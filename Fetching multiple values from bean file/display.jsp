@@ -11,7 +11,7 @@
 <body bgcolor = "cyan">		
 
 	<c:forEach items="${users}" var="s">
-		${s.name}
+		<br>${s.name} ${s.id}
 	</c:forEach>
 
 </body>
