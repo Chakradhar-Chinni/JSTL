@@ -8,4 +8,4 @@ tags
     
     
     For Core Tags: <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    For SQL 	 : <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/sql" %>
+    For SQL 	 : <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
