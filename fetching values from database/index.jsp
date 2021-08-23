@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-		<%= "Displaying JSP File" %>   
+		<%= "Displaying Index File" %>   
 		<form action="display.jsp">
 			Access Token: <input type="text" name="id"><br><br>
 			<input type="submit">
