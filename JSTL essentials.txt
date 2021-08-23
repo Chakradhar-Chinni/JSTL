@@ -15,3 +15,27 @@ tags
     	  for finding length of string:
 		<c:set var="str" value="Java language"/>
 		Length is: ${fn:length(str)}
+		
+ 	  splitting based on space in string
+	  	<c:set var="str" value="Java language is lub"/>
+			<c:forEach items="${fn:split(str,' ')}" var="s">
+				<br> ${s}
+			</c:forEach> 
+			
+	 searching for a particular string  //returns true if string is present
+	 	<c:set var="str" value="Java language is lub"/>
+			<c:if test ="${fn:contains(str,'Java')}" var="s">
+				<br> ${s}  
+		 </c:if>
+	endswith
+		<c:set var="str" value="Java language is lub"/>
+				<c:if test ="${fn:endsWith(str,'lub')}">
+					<br> Yes
+				</c:if>
+	UpperCase
+			${fn:toUpperCase(str)} 
+	LowerCase
+			${fn:toLowerCase(str)}
+	
+		
+	
